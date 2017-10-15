@@ -62,7 +62,9 @@
     "reportCoverage": "nps reportCoverage",
     "doc": "nps doc",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "ajv": "^5.1.5",
@@ -105,7 +107,7 @@
     "cors": "^2.8.3",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
-    "express-status-monitor": "^0.1.9",
+    "express-status-monitor": "^1.0.0",
     "express-validation": "^1.0.2",
     "express-winston": "^2.4.0",
     "helmet": "^3.6.0",
@@ -123,6 +125,8 @@
     "pretty-error": "^2.1.0",
     "raven": "^2.0.2",
     "slug": "^0.9.1",
-    "winston": "^2.3.1"
-  }
+    "winston": "^2.3.1",
+    "snyk": "^1.42.7"
+  },
+  "snyk": true
 }
