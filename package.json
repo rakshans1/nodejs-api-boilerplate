@@ -62,7 +62,9 @@
     "reportCoverage": "nps reportCoverage",
     "doc": "nps doc",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "ajv": "^5.1.5",
@@ -123,6 +125,8 @@
     "pretty-error": "^2.1.0",
     "raven": "^2.0.2",
     "slug": "^0.9.1",
-    "winston": "^2.3.1"
-  }
+    "winston": "^2.3.1",
+    "snyk": "^1.306.0"
+  },
+  "snyk": true
 }
