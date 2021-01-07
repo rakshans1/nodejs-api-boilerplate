@@ -121,7 +121,7 @@
     "passport-facebook": "^2.1.1",
     "passport-jwt": "^2.2.1",
     "passport-local": "^1.0.0",
-    "pm2": "^4.3.0",
+    "pm2": "^4.4.0",
     "pretty-error": "^2.1.0",
     "raven": "^2.0.2",
     "slug": "^0.9.1",
