@@ -115,7 +115,7 @@
     "joi": "^10.5.2",
     "jsonwebtoken": "^7.4.0",
     "method-override": "^2.3.8",
-    "mongoose": "^4.10.5",
+    "mongoose": "^5.12.3",
     "mongoose-unique-validator": "^1.0.5",
     "passport": "^0.3.2",
     "passport-facebook": "^2.1.1",
@@ -126,7 +126,7 @@
     "raven": "^2.0.2",
     "slug": "^0.9.1",
     "winston": "^2.3.1",
-    "snyk": "^1.316.1"
+    "snyk": "^1.518.0"
   },
   "snyk": true
 }
