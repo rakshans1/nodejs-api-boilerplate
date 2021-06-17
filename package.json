@@ -121,12 +121,12 @@
     "passport-facebook": "^2.1.1",
     "passport-jwt": "^2.2.1",
     "passport-local": "^1.0.0",
-    "pm2": "^4.4.0",
+    "pm2": "^5.0.0",
     "pretty-error": "^2.1.0",
     "raven": "^2.0.2",
     "slug": "^0.9.1",
     "winston": "^2.3.1",
-    "snyk": "^1.316.1"
+    "snyk": "^1.638.0"
   },
   "snyk": true
 }
